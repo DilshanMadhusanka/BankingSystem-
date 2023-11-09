@@ -35,8 +35,8 @@ namespace BankingSystem
 
         public BankAccount( String name , decimal initialBalance)
         {
-           this.Owner = name;
-           this.Balance = initialBalance ;  
+            this.Owner = name;
+            this.Balance = initialBalance ;  
         }
 
 
