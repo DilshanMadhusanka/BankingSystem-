@@ -28,6 +28,10 @@ namespace BankingSystem
         public String Owner { get; set; }
         public decimal Balance { get; }
 
+        // auto generate banknumber 
+
+        private static int accountNumberSeed = 1234567890;
+
         // methana get krala witharak thiyan properties walata class eka athukenma set property eka set krann oni. ekata constructor eka hadanwa
 
 
@@ -36,7 +40,10 @@ namespace BankingSystem
         public BankAccount( String name , decimal initialBalance)
         {
             this.Owner = name;
-            this.Balance = initialBalance ;  
+            this.Balance = initialBalance ;
+
+            this.Number = accountNumberSeed.ToString();
+            accountNumberSeed++;
         }
 
 
