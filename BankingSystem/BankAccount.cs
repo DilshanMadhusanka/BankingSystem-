@@ -26,16 +26,16 @@ namespace BankingSystem
 
         public String Number { get;  }
         public String Owner { get; set; }
-        public decimal Balance { get; }
+        public decimal Balance { get;  }
 
-        // auto generate banknumber 
+        // auto generate banknumber   
 
         private static int accountNumberSeed = 1234567890;
 
         // methana get krala witharak thiyan properties walata class eka athukenma set property eka set krann oni. ekata constructor eka hadanwa
 
 
-        // Constructor 
+        // Constructor  
 
         public BankAccount( String name , decimal initialBalance)
         {
