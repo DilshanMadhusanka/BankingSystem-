@@ -15,7 +15,7 @@ namespace BankingSystem
 
 
 
-        // to set the values  we create the constructor  
+        // to set the values  we create the  constructor  
 
         Transsaction(decimal amount, DateTime date, String note)
         {
