@@ -30,7 +30,7 @@ namespace BankingSystem
 
         // auto generate banknumber   
 
-        private static int accountNumberSeed = 1234567890;
+        private static int accountNumberSeed = 1234567890; // static keyword eka nisa account number eka mula idan aluth account hadankot run wen na . kalin hadal stop un thanin issarahat yanwa
 
         // methana get krala witharak thiyan properties walata class eka athukenma set property eka set krann oni. ekata constructor eka hadanwa
 
