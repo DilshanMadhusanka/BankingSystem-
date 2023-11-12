@@ -37,7 +37,7 @@ namespace BankingSystem
 
         // Constructor  
 
-        public BankAccount( String name , decimal initialBalance)
+        public BankAccount( String name , decimal initialBalance)  // meke number , balance eka set kral na e nisa constructor eka haraha yann oni set krann 
         {
             this.Owner = name;
             this.Balance = initialBalance ;
@@ -49,10 +49,14 @@ namespace BankingSystem
 
 
         public void MakeDeposite (decimal amount , DateTime date , String note)
-        { }
+        {
+            var deposite = new Transsaction(amount , date, note); 
+        }
 
         public void MakeWithdrawal (decimal amount , DateTime date , String note) 
-        { }
+        {
+            var withdrawl = new Transsaction(-amount , date , note); // amount eka minus value ekak une salli eliyat ganna nisa
+        }
 
     }
 }

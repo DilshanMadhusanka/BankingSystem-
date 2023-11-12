@@ -17,7 +17,7 @@ namespace BankingSystem
 
         // to set the values  we create the  constructor  
 
-        Transsaction(decimal amount, DateTime date, String note)
+       public Transsaction(decimal amount, DateTime date, String note)
         {
             this.Amount = amount;
             this.Date = date;
